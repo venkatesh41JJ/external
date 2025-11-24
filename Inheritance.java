@@ -13,9 +13,9 @@ class bird extends Animal {
 public class Inheritance {
     public static void main(String[] args) {
         
-        Dog myDog = new Dog();
-        myDog.eat();
+        bird myDog = new bird();
+        myDog.run();
 
-        myDog.bark();
+        myDog.sound();
     }
 }
